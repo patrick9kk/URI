@@ -1,0 +1,14 @@
+x, y, z = input().split(" ")
+x = int(x)
+y = int(y)
+z = int(z)
+garrafas = x + y
+refris = 0
+while True:
+    if(garrafas >= z):
+        garrafas += 1
+        garrafas -= z
+        refris += 1
+    else:
+        print(refris)
+        break
