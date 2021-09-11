@@ -1,0 +1,7 @@
+A = int(input())
+A = str(A)
+
+if "13" in A:
+  print(f"{A} es de Mala Suerte")
+else:
+  print(f"{A} NO es de Mala Suerte")
