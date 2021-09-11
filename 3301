@@ -1,0 +1,12 @@
+idades = input().split()
+
+H = idades [0]
+Z = idades [1]
+L = idades [2]
+
+if Z < H < L or L < H < Z:
+  print('huguinho')
+elif L < Z < H or H < Z < L:
+  print('zezinho')
+elif Z < L < H or H < L < Z:
+  print('luisinho')
