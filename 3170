@@ -1,0 +1,7 @@
+bolinhhas_existentes = int(input())
+galhos_da_avore = int(input())
+
+bolinhas_a_comprar = (galhos_da_avore// 2) - bolinhhas_existentes
+if (bolinhas_a_comprar > 0):
+  print('Faltam {} bolinha(s)'.format(bolinhas_a_comprar))
+else: print('Amelia tem todas bolinhas!')
